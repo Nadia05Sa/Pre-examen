@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+/* Cards de productos */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Sección Ver Más */
+.text-primary {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.text-decoration-underline {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Sección equipo e instalaciones */
+.container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card.border-0 {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.card-body.text-center h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Ajustes para imágenes dentro de las cards */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
